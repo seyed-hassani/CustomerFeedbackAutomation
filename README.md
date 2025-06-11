@@ -4,11 +4,11 @@ An intelligent customer feedback analysis system that automatically processes su
 
 ![Customer Feedback Dashboard](https://via.placeholder.com/800x400/2196F3/FFFFFF?text=Customer+Feedback+Analytics)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This end-to-end solution transforms raw customer feedback into actionable business insights. The system processes multi-channel feedback data, applies advanced sentiment analysis, and generates enriched datasets ready for visualization, reporting, and strategic decision-making.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```mermaid
 graph LR
@@ -20,27 +20,27 @@ graph LR
     F --> G[Actionable Insights]
 ```
 
-## ✨ Key Features
+##  Key Features
 
-### 🤖 Intelligent Processing
+###  Intelligent Processing
 - **Multi-format Data Ingestion** - CSV, JSON, Excel support
 - **Advanced Sentiment Analysis** - Beyond basic positive/negative classification
 - **Emotion Detection** - Joy, anger, fear, sadness identification
 - **Confidence Scoring** - Reliability metrics for each classification
 
-### 📊 Business Intelligence Ready
+###  Business Intelligence Ready
 - **KNIME Integration** - Visual workflow compatibility
 - **Dashboard Preparation** - Power BI, Tableau, Looker ready
 - **Real-time Processing** - Batch and streaming data support
 - **Custom Metrics** - NPS, CSAT, CES calculations
 
-### 🔍 Advanced Analytics
+###  Advanced Analytics
 - **Topic Modeling** - Automatic theme identification
 - **Trend Analysis** - Sentiment evolution over time
 - **Channel Comparison** - Performance across touchpoints
 - **Keyword Extraction** - Most mentioned terms and phrases
 
-## 🔧 Technology Stack
+##  Technology Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
@@ -51,12 +51,12 @@ graph LR
 | **Visualization Prep** | Matplotlib + Seaborn | Exploratory data analysis |
 | **NLP Enhancement** | spaCy (optional) | Advanced text processing |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 customer-feedback-automation/
 │
-├── 📊 data/                           # Data directory
+├──  data/                           # Data directory
 │   ├── raw/                          # Input data files
 │   │   ├── customer_feedback.csv     # Sample feedback data
 │   │   ├── survey_responses.json     # Survey data
@@ -66,45 +66,45 @@ customer-feedback-automation/
 │   └── sample/                       # Example datasets
 │       └── demo_feedback.csv         # Demo data for testing
 │
-├── 🐍 python/                         # Python scripts
+├──  python/                         # Python scripts
 │   ├── sentiment_analysis.py         # Main processing script
 │   ├── data_preprocessing.py         # Data cleaning utilities
 │   ├── advanced_nlp.py              # Enhanced NLP features
 │   ├── metrics_calculator.py        # Business metrics computation
 │   └── export_utilities.py          # Data export functions
 │
-├── 🔧 knime/                          # KNIME workflows
+├──  knime/                          # KNIME workflows
 │   ├── feedback_processing_workflow.knwf # Main KNIME workflow
 │   ├── sentiment_dashboard_prep.knwf     # Dashboard data prep
 │   └── advanced_analytics.knwf           # Advanced analysis workflow
 │
-├── 📈 visualization/                   # Visualization templates
+├──  visualization/                   # Visualization templates
 │   ├── powerbi_template.pbix         # Power BI dashboard
 │   ├── tableau_workbook.twb          # Tableau visualization
 │   └── looker_dashboard.json         # Looker dashboard config
 │
-├── 🧪 tests/                          # Testing suite
+├──  tests/                          # Testing suite
 │   ├── test_sentiment_analysis.py    # Unit tests
 │   ├── test_data_processing.py       # Data validation tests
 │   └── sample_test_data.csv          # Test datasets
 │
-├── 📋 config/                         # Configuration files
+├──  config/                         # Configuration files
 │   ├── sentiment_config.yaml         # Analysis parameters
 │   ├── data_schema.json             # Data structure definitions
 │   └── business_rules.yaml          # Custom business logic
 │
-├── 📖 docs/                           # Documentation
+├──  docs/                           # Documentation
 │   ├── user_guide.md                # End-user documentation
 │   ├── technical_specs.md           # Technical specifications
 │   └── knime_setup_guide.md         # KNIME configuration guide
 │
-├── 🔧 requirements.txt                # Python dependencies
-├── 📋 environment.yml                # Conda environment
-├── 🐳 Dockerfile                     # Container deployment
-└── 📄 README.md                      # Project documentation
+├──  requirements.txt                # Python dependencies
+├──  environment.yml                # Conda environment
+├──  Dockerfile                     # Container deployment
+└──  README.md                      # Project documentation
 ```
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -159,7 +159,7 @@ python python/sentiment_analysis.py \
 3. Configure data source to point to your processed files
 4. Execute workflow for advanced visualizations
 
-## 📊 Sample Output Analysis
+##  Sample Output Analysis
 
 ### Enhanced Data Structure
 | Column | Description | Example |
@@ -182,7 +182,7 @@ python python/sentiment_analysis.py \
 - **Sentiment Trend Analysis** - Changes over time periods
 - **Channel Performance** - Satisfaction by communication method
 
-## 💼 Business Applications
+##  Business Applications
 
 ### Customer Experience Management
 - **Real-time Sentiment Monitoring** - Track customer satisfaction as it happens
@@ -199,7 +199,7 @@ python python/sentiment_analysis.py \
 - **Brand Perception Tracking** - Monitor brand sentiment across channels
 - **Content Optimization** - Identify messaging that resonates positively
 
-## 🎨 Visualization & Dashboard Options
+## Visualization & Dashboard Options
 
 ### Power BI Integration
 ```python
@@ -219,7 +219,7 @@ python python/export_utilities.py --format tableau --output data/tableau_ready/
 - Real-time monitoring widgets
 - Custom KPI scorecards
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ### Sentiment Analysis Parameters
 ```yaml
@@ -254,7 +254,7 @@ metrics:
   response_time_sla: 24  # hours
 ```
 
-## 🧪 Testing & Validation
+##  Testing & Validation
 
 ### Data Quality Checks
 ```python
@@ -271,7 +271,7 @@ python tests/test_sentiment_analysis.py --sample-size 1000
 - **Memory Usage**: <2GB for 100K records
 - **API Response Time**: <200ms average
 
-## 🚀 Advanced Features
+##  Advanced Features
 
 ### Machine Learning Enhancements
 ```python
@@ -294,7 +294,7 @@ python python/stream_processor.py --source kafka --topic customer-feedback
 python api/sentiment_api.py --port 5000
 ```
 
-## 📈 Performance Optimization
+##  Performance Optimization
 
 ### Large Dataset Handling
 - **Chunked Processing** - Handle datasets of any size
@@ -308,7 +308,7 @@ python api/sentiment_api.py --port 5000
 - **Apache Spark** - Big data processing capability
 - **Kubernetes** - Orchestrated container management
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 - [ ] **Deep Learning Models** - BERT, RoBERTa integration
 - [ ] **Multi-language Support** - Global feedback processing
@@ -318,7 +318,7 @@ python api/sentiment_api.py --port 5000
 - [ ] **A/B Testing Framework** - Experiment management
 - [ ] **Automated Reporting** - Scheduled insights delivery
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please check our [Contributing Guidelines](CONTRIBUTING.md) for:
 - Code standards and best practices
@@ -326,39 +326,21 @@ We welcome contributions! Please check our [Contributing Guidelines](CONTRIBUTIN
 - Documentation guidelines
 - Pull request process
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **Seyed Hassani**
-- 🐙 GitHub: [seyed-hassani](https://github.com/seyed-hassani)
-- 💼 LinkedIn: [Seyed Hassani](https://www.linkedin.com/in/seyed-hassani/)
-- ✉️ Email: hassas98@mcmaster.ca
+-  GitHub: [seyed-hassani](https://github.com/seyed-hassani)
+-  LinkedIn: [Seyed Hassani](https://www.linkedin.com/in/seyed-hassani/)
+-  Email: hassas98@mcmaster.ca
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - TextBlob and VADER sentiment analysis libraries
 - KNIME Analytics Platform community
 - Open source NLP research community
 - Customer experience professionals who provided domain expertise
 
-## 📞 Support & Community
-
-### Getting Help
-- 📚 **Documentation**: Check the `docs/` directory for detailed guides
-- 🐛 **Bug Reports**: [Create an issue](https://github.com/seyed-hassani/customer-feedback-automation/issues)
-- 💡 **Feature Requests**: [Request new features](https://github.com/seyed-hassani/customer-feedback-automation/issues/new?template=feature_request.md)
-- 💬 **Discussions**: [Join the community](https://github.com/seyed-hassani/customer-feedback-automation/discussions)
-
-### Enterprise Support
-For commercial implementations and custom development, please contact us directly via the information above.
-**Seyed Hassani**
-- 🐙 GitHub: [seyed-hassani](https://github.com/seyed-hassani)
-- 💼 LinkedIn: [Seyed Hassani](https://www.linkedin.com/in/seyed-hassani/)
-- ✉️ Email: hassas98@mcmaster.ca
-
----
-
-*Transforming customer voices into actionable business intelligence* 🎯
